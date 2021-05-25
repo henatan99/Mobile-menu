@@ -94,15 +94,27 @@ function details(p_class) {
 };
 
 const card_elem1 = card(['card', 'weather'], details('white-description'));
+const card_elem2 = card(['card', 'gtime'], details('white-description'));
+const card_elem3 = card(['card', 'conference'], details('white-description'));
+const card_elem4 = card(['card', 'katchy'], details('white-description'));
 
 const card_lists = document.createElement('div');
 card_lists.classList.add('cards-list');
 
-[card_elem1].forEach(item => item.appendChild(card_lists));
+[card_elem1, card_elem2, card_elem3, card_elem4].forEach(item => item.appendChild(card_lists));
 
 const about_us_section = document.createElement('section');
 about_us_section.setAttribute('id', 'about-me-section');
-
+about_us_section.innerHTML = 
+'<h2>About me</h2> <p class="about-me-text">' +
+  'I am a skilled Full-Stack Web Developer who loves making pages with' +
+  'beautiful UI. I have studied at Microverse, and I am experienced in remote work. <br />' + 
+  'I\'ve also been a good helping hand to a lot of developers in different communities!' +
+  '<br /> if you\'d like to get in contact about potential job opportunities, please reach out! </p>' +
+'<a href="https://docs.google.com/document/d/1lYq0Kb50TujzJzDWGobIchRI17JMnAiZMF9OBQgNU68/edit?usp=sharing"' +
+  'class="link" target="_blank" rel="noreferrer noopener"> Get my resume </a> <img' +
+  'class="about-me-icon mobile-icon" src="./media/svg/icon-2.svg" alt="Icon" />' +
+'<img class="about-me-icon desktop-icon" src="./media/svg/desktop-icon-2.svg" alt="Icon"/>';
 
 const about_us = document.createElement('div');
 about_us.setAttribute('id', 'about-me');
@@ -128,6 +140,9 @@ project.setAttribute('id', 'projects');
 
 const main = document.createElement('main');
 [featured, project, about_us].forEach((item) => main.appendChild(item));
+
+// changes made 
+
 
 [header, main].forEach((item) => document.body.appendChild(item));
 
