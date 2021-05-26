@@ -29,7 +29,7 @@ featuredh2a.innerText = 'Hi End Tech. <br /> Techno274';
 
 const featuredh2b = document.createElement('h2');
 featuredh2b.classList.add('intro-greet');
-featuredh2b.innerText = 'Fine tuch features.';
+featuredh2b.innerText = 'Fine touch features.';
 
 const featuredp = document.createElement('p');
 featuredp.classList.add('intro-text');
@@ -78,18 +78,18 @@ function card(classes = [], details) {
 }
 
 function details(pclass) {
-  const innerElem = '<h2>Weather App</h2>'
+  const innerElem = '<h2>Best Selling Techno Phantom</h2>'
 + `<p class="${pclass}"`
-  + 'This is a responsive weather app made with JavaScript that'
-  + 'displays the temperature, humidity and timezone for cities'
-  + 'around the world.'
+  + 'This is a best selling mobile of 2020'
+  + 'displays high quality fluid images and videos'
+  + 'sold around the world.'
 + '</p>'
 + '<ul class="project-stacks card-stacks">'
-  + '<li>HTML</li>'
-  + '<li>SASS/CSS</li>'
-  + '<li>JavaScript</li>'
-  + '<li>WebPack</li>'
-  + '<li>Babel</li>'
+  + '<li>SLICK</li>'
+  + '<li>HIGH QUALITY</li>'
+  + '<li>LIGHT</li>'
+  + '<li>Camera Hi</li>'
+  + '<li>Interactive</li>'
 + '</ul>';
   return innerElem;
 }
@@ -106,13 +106,13 @@ cardlists.classList.add('cards-list');
 
 const aboutussection = document.createElement('section');
 aboutussection.setAttribute('id', 'about-me-section');
-aboutussection.innerHTML = '<h2>About me</h2> <p class="about-me-text">'
-  + 'I am a skilled Full-Stack Web Developer who loves making pages with'
-  + 'beautiful UI. I have studied at Microverse, and I am experienced in remote work. <br />'
-  + 'I\'ve also been a good helping hand to a lot of developers in different communities!'
-  + '<br /> if you\'d like to get in contact about potential job opportunities, please reach out! </p>'
+aboutussection.innerHTML = '<h2>About us</h2> <p class="about-me-text">'
+  + 'We are skilled in providing high end mobile technology for the world with'
+  + 'beautiful design. We have adapted best screen technologies through years. <br />'
+  + 'We also give consultabcy for other tech companies to develop their technology!'
+  + '<br /> if you\'d like to get in contact about purchases, please reach out! </p>'
 + '<a href="https://docs.google.com/document/d/1lYq0Kb50TujzJzDWGobIchRI17JMnAiZMF9OBQgNU68/edit?usp=sharing"'
-  + 'class="link" target="_blank" rel="noreferrer noopener"> Get my resume </a> <img'
+  + 'class="link" target="_blank" rel="noreferrer noopener"> Get our Catalog </a> <img'
   + 'class="about-me-icon mobile-icon" src="./media/svg/icon-2.svg" alt="Icon" />'
 + '<img class="about-me-icon desktop-icon" src="./media/svg/desktop-icon-2.svg" alt="Icon"/>';
 
@@ -121,15 +121,15 @@ aboutus.setAttribute('id', 'about-me');
 aboutus.appendChild(aboutussection);
 
 const cardsh2 = document.createElement('h2');
-cardsh2.innerText = 'My Recent Work';
+cardsh2.innerText = 'Recent Releases';
 const firstcard = document.createElement('div');
 firstcard.classList.add('first-card');
 firstcard.innerHTML = '<img src="./media/png/ubrunning.png" alt="UB-Running Screenshot" class="first-card-img"/>'
 + '<div class="first-card-description">'
-    + '<h2>UB Running</h2><p class="description blue-color">'
-      + 'A Platform game made with JavaScript using the Phaser framework</p>'
-+ '<ul class="project-stacks blue-color"> <li>HTML</li> <li>SASS/CSS</li> <li>JavaScript</li>'
-      + '<li>WebPack</li> <li>Babel</li> <li>Phaser</li> </ul>'
+    + '<h2>Techno F20</h2><p class="description blue-color">'
+      + 'A Mobile made with the lastest screen technology and good UX</p>'
++ '<ul class="project-stacks blue-color"> <li>LIGHT</li> <li>SLICK</li> <li>Hi Screen</li>'
+      + '<li>Hi Networg</li> <li>Image Graphics</li> <li>Battery</li> </ul>'
     + '<a href="https://github.com/Spayco/UB-Running/" class="link" target="_blank" '
     + 'rel="noreferrer noopener" >See project</a> </div>';
 
