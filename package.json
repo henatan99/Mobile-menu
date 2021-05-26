@@ -1,0 +1,19 @@
+{
+  "name": "mobile-menu-new",
+  "version": "1.0.0",
+  "description": "This repo is a copy of a cloned repo which host an initial code for the tasks performed during the Code Reviewers training.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henatan99/Mobile-menu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henatan99/Mobile-menu/issues"
+  },
+  "homepage": "https://github.com/henatan99/Mobile-menu#readme"
+}
